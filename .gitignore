@@ -1,0 +1,19 @@
+# BUFR / NetCDF / xarray の生データは GitHub に上げない
+data/bufr_raw/
+data/decoded_json/
+data/xarray/
+data/netcdf/
+
+# 大きなバイナリファイル
+*.bin
+*.bufr
+*.nc
+
+# Python / Jupyter の一般的な無視項目
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS の不要ファイル
+.DS_Store
+Thumbs.db
